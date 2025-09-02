@@ -1128,7 +1128,7 @@ input, select, textarea {
 			height: 100%;
 		}
 
-		/*#bg:before {
+		#bg:before {
 			-moz-transition: background-color 2.5s ease-in-out;
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
@@ -1144,7 +1144,7 @@ input, select, textarea {
 			background-repeat: no-repeat,
  repeat;
 			z-index: 2;
-		}*/
+		}
 
 		#bg:after {
 			-moz-transform: scale(1.125);
@@ -1155,7 +1155,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/background.jpg");
+			background-image: url("../../images/background.gif");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1173,9 +1173,9 @@ input, select, textarea {
 			filter: blur(0.4rem);
 		}
 
-		/*body.is-preload #bg:before {
+		body.is-preload #bg:before {
 			background-color: #000000;
-		}*/
+		}
 
 /* Wrapper */
 
