@@ -1128,7 +1128,7 @@ input, select, textarea {
 			height: 100%;
 		}
 
-		#bg:before {
+		/*#bg:before {
 			-moz-transition: background-color 2.5s ease-in-out;
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
@@ -1144,7 +1144,7 @@ input, select, textarea {
 			background-repeat: no-repeat,
  repeat;
 			z-index: 2;
-		}
+		}*/
 
 		#bg:after {
 			-moz-transform: scale(1.125);
@@ -1173,9 +1173,9 @@ input, select, textarea {
 			filter: blur(0.4rem);
 		}
 
-		body.is-preload #bg:before {
+		/*body.is-preload #bg:before {
 			background-color: #000000;
-		}
+		}*/
 
 /* Wrapper */
 
